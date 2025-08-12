@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Simple Pet App"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="Tap the button to start/stop your pet!\nYour pet will appear on screen and you can drag it around."
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/toggleButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Start Pet"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/pbLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressBackgroundTint="@color/black"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
